@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorBackground">@color/modern_primary</item>
+        <item name="android:textColor">@color/modern_accent</item>
+        <item name="android:colorForeground">@color/modern_primary_dark</item>
+        <item name="android:colorPrimary">@color/modern_primary</item>
+        <item name="android:colorPrimaryDark">@color/modern_primary_dark</item>
+        <item name="android:colorAccent">@color/modern_accent</item>
+        <item name="android:colorButtonNormal">@color/modern_button</item>
+    </style>
+</resources>

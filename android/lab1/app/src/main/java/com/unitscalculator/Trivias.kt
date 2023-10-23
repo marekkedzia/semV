@@ -1,0 +1,96 @@
+package com.unitscalculator
+
+import kotlin.random.Random
+
+class Trivias {
+    val bar = listOf(
+        "Pierwszy zarejestrowany bar, w którym sprzedawano alkohol, działał w Londynie już w 1100 roku.",
+        "The Beer Barrel Pub w Burnley, Anglia, mierzy 104 metry długości.",
+        "Nazwa 'koktajlu Mołotowa' pochodzi z czasów wojny domowej w Hiszpanii, kiedy to Finowie używali improwizowanych bomb zapalających przeciwko wojskom radzieckim i ich ministrowi spraw zagranicznych - Wjaczesławowi Mołotowowi.",
+        "W czasach prohibicji w USA (1920-1933) produkcja i sprzedaż alkoholu były nielegalne, ale spożywanie alkoholu - nie.",
+        "Winston Cocktail został sprzedany w Melbourne za 12 500 dolarów.",
+        "Niegdyś zakazany napój, absynt, który miał rzekomo wywoływać halucynacje, był ulubionym trunkiem wielu artystów, w tym Van Gogha.",
+        "Prawdziwy martini powinien być wstrząśnięty, a nie mieszany. Tak przynajmniej twierdził James Bond.",
+        "Najstarsza znana receptura na piwo pochodzi z około 4000 roku p.n.e. z Sumerii.",
+        "Ozone Bar w Hongkongu jest najwyżej położonym barem na świecie, znajduje się na 118 piętrze.",
+        "Sposób pisania whisky zależy od kraju pochodzenia: 'whisky' pochodzi ze Szkocji, a 'whiskey' z Irlandii lub USA.",
+        "Pierwszy zarejestrowany bar, w którym sprzedawano alkohol, działał w Londynie już w 1100 roku.",
+        "The Beer Barrel Pub w Burnley, Anglia, mierzy 104 metry długości.",
+        "Nazwa 'koktajlu Mołotowa' pochodzi z czasów wojny domowej w Hiszpanii, kiedy to Finowie używali improwizowanych bomb zapalających przeciwko wojskom radzieckim i ich ministrowi spraw zagranicznych - Wjaczesławowi Mołotowowi.",
+        "W czasach prohibicji w USA (1920-1933) produkcja i sprzedaż alkoholu były nielegalne, ale spożywanie alkoholu - nie.",
+        "Winston Cocktail został sprzedany w Melbourne za 12 500 dolarów.",
+        "Niegdyś zakazany napój, absynt, który miał rzekomo wywoływać halucynacje, był ulubionym trunkiem wielu artystów, w tym Van Gogha.",
+        "Prawdziwy martini powinien być wstrząśnięty, a nie mieszany. Tak przynajmniej twierdził James Bond.",
+        "Najstarsza znana receptura na piwo pochodzi z około 4000 roku p.n.e. z Sumerii.",
+        "Ozone Bar w Hongkongu jest najwyżej położonym barem na świecie, znajduje się na 118 piętrze.",
+    )
+
+    var history = listOf(
+        "Wielki Mur Chiński został początkowo zbudowany w celu ochrony przed najeźdźcami, a nie jako atrakcja turystyczna.",
+        "Juliusz Cezar nie został zamordowany w Kapitolu. Zginął podczas spotkania w teatrze Pompejusza.",
+        "Władca Persji, Kserkses I, zbudował mosty przez Hellespont tylko po to, by na nie naskoczyć i ukarać wody za zniszczenie jego poprzednich mostów.",
+        "Król Anglii, Ryszard I Lwie Serce, spędził tylko sześć miesięcy swojego dziesięcioletniego panowania w Anglii.",
+        "Cleopatra była bardziej Grekijnką niż Egipcjanką pod względem pochodzenia.",
+        "Wikingowie nosili hełmy z rogami tylko podczas pewnych ceremonii, a nie w trakcie bitew.",
+        "Leonardo da Vinci mógł napisać jednocześnie lewą i prawą ręką.",
+        "Król Francji Ludwik XIV posiadał ponad 1,000 par butów.",
+        "Słynna wieża w Pizie zaczęła się przechylać niemal natychmiast po rozpoczęciu budowy.",
+        "Droga Jedwabna, ważny szlak handlowy, nie była jednym ciągłym szlakiem, ale raczej siecią tras.",
+        "Marco Polo prawdopodobnie nigdy nie dotarł do Chin, mimo że opisywał je w swoich podróżach.",
+        "Podczas bitwy pod Waterloo w 1815 roku, obie strony używały zębatych kół w celu komunikacji.",
+        "Król Anglii, Henryk VIII, miał więcej niż osiem żon. Kilka było tajnymi kochankami.",
+        "Rzymianie używali tabliczek woskowych zamiast papieru.",
+        "W starożytnym Egipcie służący byli smarowani miodem, aby przyciągnąć muchy z dala od faraona.",
+        "W ciągu pierwszych 100 dni prezydentury, Franklin D. Roosevelt wprowadził ponad 15 głównych ustaw.",
+        "Pomnik w Stonehenge został zbudowany przez różne kultury w ciągu wielu wieków.",
+        "Wielki pożar Londynu z 1666 roku zniszczył 87 kościołów, ale zabił tylko sześć osób.",
+        "Czarna Śmierć, która zdziesiątkowała populację Europy w średniowieczu, była spowodowana przez bakterie przewodzone przez pchły na szczurach.",
+        "Wybuch wulkanu Krakatau w 1883 roku był tak głośny, że słyszano go na odległość ponad 4800 km."
+    )
+
+    val geography = listOf(
+        "Amazonka jest najdłuższą rzeką na świecie.",
+        "Sahara to największa pustynia na świecie.",
+        "Rosja rozciąga się przez 11 stref czasowych.",
+        "Himalaje to najwyższe góry na świecie.",
+        "Ocean Spokojny to największy ocean na Ziemi.",
+        "Amazonka jest najdłuższą rzeką na świecie.",
+        "Sahara to największa pustynia na świecie.",
+        "Rosja rozciąga się przez 11 stref czasowych.",
+        "Himalaje to najwyższe góry na świecie.",
+        "Ocean Spokojny to największy ocean na Ziemi.",
+        "Amazonka jest najdłuższą rzeką na świecie.",
+        "Sahara to największa pustynia na świecie.",
+        "Rosja rozciąga się przez 11 stref czasowych.",
+        "Himalaje to najwyższe góry na świecie.",
+        "Ocean Spokojny to największy ocean na Ziemi.",
+        "Amazonka jest najdłuższą rzeką na świecie.",
+        "Sahara to największa pustynia na świecie.",
+        "Rosja rozciąga się przez 11 stref czasowych.",
+        "Himalaje to najwyższe góry na świecie.",
+        "Ocean Spokojny to największy ocean na Ziemi.",
+    )
+
+    val sport = listOf(
+        "Pierwsze nowożytne igrzyska olimpijskie odbyły się w 1896 roku w Atenach.",
+        "Pele zdobył trzy Mistrzostwa Świata w piłce nożnej.",
+        "Michael Phelps jest najbardziej utytułowanym olimpijczykiem wszech czasów.",
+        "Najdłuższy mecz w historii tenisa trwał 11 godzin i 5 minut.",
+        "Rugby powstało, gdy pewien uczniak podczas gry w piłkę nożną złapał piłkę rękoma i zaczął biec z nią do przodu.",
+        "Pierwsze nowożytne igrzyska olimpijskie odbyły się w 1896 roku w Atenach.",
+        "Pele zdobył trzy Mistrzostwa Świata w piłce nożnej.",
+        "Michael Phelps jest najbardziej utytułowanym olimpijczykiem wszech czasów.",
+        "Najdłuższy mecz w historii tenisa trwał 11 godzin i 5 minut.",
+        "Rugby powstało, gdy pewien uczniak podczas gry w piłkę nożną złapał piłkę rękoma i zaczął biec z nią do przodu.",
+        "Pierwsze nowożytne igrzyska olimpijskie odbyły się w 1896 roku w Atenach.",
+        "Pele zdobył trzy Mistrzostwa Świata w piłce nożnej.",
+        "Michael Phelps jest najbardziej utytułowanym olimpijczykiem wszech czasów.",
+        "Najdłuższy mecz w historii tenisa trwał 11 godzin i 5 minut.",
+        "Rugby powstało, gdy pewien uczniak podczas gry w piłkę nożną złapał piłkę rękoma i zaczął biec z nią do przodu.",
+        "Pierwsze nowożytne igrzyska olimpijskie odbyły się w 1896 roku w Atenach.",
+        "Pele zdobył trzy Mistrzostwa Świata w piłce nożnej.",
+        "Michael Phelps jest najbardziej utytułowanym olimpijczykiem wszech czasów.",
+        "Najdłuższy mecz w historii tenisa trwał 11 godzin i 5 minut.",
+        "Rugby powstało, gdy pewien uczniak podczas gry w piłkę nożną złapał piłkę rękoma i zaczął biec z nią do przodu.",
+    )
+}
