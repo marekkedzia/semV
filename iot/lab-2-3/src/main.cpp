@@ -58,6 +58,7 @@ void execMode0()
 
 void execMode1()
 {
+  digitalWrite(LED_BLUE, LOW);
   digitalWrite(LED_RED, HIGH);
 }
 
@@ -69,10 +70,10 @@ void execMode2()
 
 void execMode3()
 {
-  delay(300);
+  delay(100);
   digitalWrite(LED_BLUE, LOW);
   digitalWrite(LED_RED, HIGH);
-  delay(300);
+  delay(100);
   digitalWrite(LED_RED, LOW);
   digitalWrite(LED_BLUE, HIGH);
 }
@@ -80,9 +81,17 @@ void execMode3()
 void loop()
 {
   if (digitalRead(RED_BUTTON) == LOW)
+  {
     changeFlashLightMode();
+    delay(200);
+  }
 
-  printf("Mode: %d\n", flashlightMode);
+  if (digitalRead(GREEN_BUTTON) == LOW)
+  {
+    flashlightMode = 0;
+    delay(200);
+  }
+
   if (flashlightMode == 0)
     execMode0();
   else if (flashlightMode == 1)
