@@ -13,12 +13,7 @@
         android:theme="@style/AppTheme"
         tools:targetApi="34">
         <activity
-            android:name=".Trivias"
-            android:exported="false"
-            android:label="@string/title_activity_trivias"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".MainActivity"
+            android:name="MainActivity"
             android:exported="true"
             android:label="Trivia"
             android:theme="@style/AppTheme">

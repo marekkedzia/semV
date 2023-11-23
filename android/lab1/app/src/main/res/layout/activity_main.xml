@@ -1,151 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="@string/knowledge_level"
-        android:textColor="@color/modern_accent"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="225dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="184dp"
-        android:text="@string/choose_category"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.446"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/authorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
 
-    <ImageView
-        android:id="@+id/imageBattery"
-        android:layout_width="127dp"
-        android:layout_height="102dp"
-        android:layout_marginTop="72dp"
-        android:contentDescription="@string/image_battery_desc"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/battery_empty_solid" />
+        <Button
+            android:id="@+id/dayStyleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/day_style_button"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/authorName"
+            android:layout_marginTop="16dp"/>
 
-    <Switch
-        android:id="@+id/switchHistorical"
-        android:layout_width="246dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="344dp"
-        android:textColor="@color/modern_accent"
-        android:trackTint="@color/modern_primary_dark"
-        android:thumbTint="@color/modern_primary_dark"
-        android:text="@string/historical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/night_style_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/night_style_button"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/authorName"
+            android:layout_marginTop="16dp"/>
 
-    <Switch
-        android:id="@+id/switchSport"
-        android:layout_width="246dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="216dp"
-        android:text="@string/sport"
-        android:textColor="@color/modern_accent"
-        android:trackTint="@color/modern_primary_dark"
-        android:thumbTint="@color/modern_primary_dark"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
 
-    <Switch
-        android:id="@+id/switchGeographic"
-        android:layout_width="246dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="264dp"
-        android:text="@string/geography"
-        android:textColor="@color/modern_accent"
-        android:trackTint="@color/modern_primary_dark"
-        android:thumbTint="@color/modern_primary_dark"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <!--    <com.google.android.material.navigation.NavigationView-->
+    <!--        android:id="@+id/nav_view"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_gravity="start"-->
+    <!--        app:menu="@menu/drawer_menu" />-->
 
-    <Switch
-        android:id="@+id/switchBar"
-        android:layout_width="246dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="304dp"
-        android:text="@string/bar"
-        android:trackTint="@color/modern_primary_dark"
-        android:thumbTint="@color/modern_primary_dark"
-        android:textColor="@color/modern_accent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="246dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="408dp"
-        android:text="@string/facts_amount_question"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="244dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="476dp"
-        android:checked="true"
-        android:text="@string/agreement"
-        android:textSize="11sp"
-        android:buttonTint="@color/modern_primary_dark"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <SeekBar
-        android:id="@+id/seekBarAmount"
-        android:layout_width="246dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="432dp"
-        android:max="10"
-        android:thumbTint="@color/modern_primary_dark"
-        android:progressTint="@color/modern_primary_dark"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/buttonSearch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="524dp"
-        android:text="@string/search"
-        android:shadowColor="@color/modern_primary_dark"
-        android:backgroundTint="@color/modern_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
-
-
+</androidx.drawerlayout.widget.DrawerLayout>
