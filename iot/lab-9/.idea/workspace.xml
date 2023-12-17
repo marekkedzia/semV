@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="929e12be-db88-442e-8139-4046fc2f6533" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/java/com/example/lista4_2/AppDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/java/com/example/lista4_2/DAO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/java/com/example/lista4_2/DatabaseHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/java/com/example/lista4_2/FragmentsQuote.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/java/com/example/lista4_2/SharedFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/layout/dialog_add_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/layout/fragment_two_page_two.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/layout/popup_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/layout/shared_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/layout/temp_adding_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/menu/drawer_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/lab4/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/zad1/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/zad1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/zad2/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/zad2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/.idea/lab-2-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/include/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/lab02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/lib/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/platformio.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/src/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/src/zad2.1.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/src/zad2.2.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/src/zad2.3.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/src/zad3.1.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/src/zad3.2.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-2-3/src/zad3.3.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/platformio.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/src/zad1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/zad1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5/src/zad2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/src/zad2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/platformio.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/src/zad1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/src/zad1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/src/zad2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/src/zad2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../systemy.webowe/project" beforeDir="false" afterPath="$PROJECT_DIR$/../../systemy.webowe/project" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ZAyofkfTSVZz7eUCOu46NhClcv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ikaros22/Library/Mobile Documents/com~apple~CloudDocs/studies/semV/iot/lab-9/zad2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zad2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zad1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="lab-9" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zad1/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="929e12be-db88-442e-8139-4046fc2f6533" name="Changes" comment="" />
+      <created>1701879356462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701879356462</updated>
+      <workItem from="1701879359786" duration="2033000" />
+      <workItem from="1701966414353" duration="1862000" />
+      <workItem from="1702490386006" duration="26000" />
+      <workItem from="1702800190184" duration="609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

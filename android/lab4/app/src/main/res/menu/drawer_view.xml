@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_raz"
+            android:title="Welcome!" />
+        <item
+            android:id="@+id/navigation_dwa"
+            android:title="Quote" />
+        <item
+            android:id="@+id/navigation_trzy"
+            android:title="Item list" />
+    </group>
+</menu>

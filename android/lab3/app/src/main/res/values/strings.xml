@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lista3</string>
+
+    <string name="pies">Pies</string>
+    <string name="kot">Kot</string>
+
+    <string name="imie">Imię</string>
+    <string name="rasa">Rasa</string>
+    <string name="kolor">Kolor</string>
+
+    <string name="prazkowany">Prążkowany</string>
+
+</resources>
