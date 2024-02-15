@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="modern_white">#FAFAFA</color>
+    <color name="modern_black">#212121</color>
+    <color name="modern_primary">#BEBEBE</color>
+    <color name="modern_primary_dark">#807676</color>
+    <color name="modern_accent">#000000</color>
+    <color name="modern_button">#979696</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

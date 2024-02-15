@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fragmentPageOne" type="id" />
+    <item name="fragmentPageTwo" type="id" />
+    <item name="fragmentPageThree" type="id" />
+    <item name="fragmentTwoPageTwo" type="id" />
+    <item name="nav_host_fragment" type="id" />
+    <item name="textViewTitle" type="id" />
+</resources>

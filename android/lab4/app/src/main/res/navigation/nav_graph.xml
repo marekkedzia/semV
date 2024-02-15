@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentPageOne">
+
+    <fragment
+        android:id="@+id/fragmentPageTwo"
+        android:name="com.example.lista4_2.FragmentPageTwo"
+        android:label="Quote"
+        tools:layout="@layout/fragment_page_two" />
+
+    <fragment
+        android:id="@+id/fragmentPageOne"
+            android:name="com.example.lista4_2.SharedFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_page_one" />
+
+    <fragment
+        android:id="@+id/fragmentPageThree"
+        android:name="com.example.lista4_2.ListFragment"
+        android:label="Item List"
+        tools:layout="@layout/fragment_list" />
+
+</navigation>

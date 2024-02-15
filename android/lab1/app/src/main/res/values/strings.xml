@@ -1,0 +1,21 @@
+<resources>
+    <!-- Strings for the MainActivity layout -->
+    <string name="app_name">Moja Aplikacja</string>
+    <string name="author_name">Jan Kowalski</string>
+    <string name="day_style_button">Styl dzienny</string>
+    <string name="night_style_button">Styl nocny</string>
+
+    <!-- Strings for the menu options -->
+    <string name="menu_red_trail">Szlak Czerwony</string>
+    <string name="menu_green_trail">Szlak Zielony</string>
+    <string name="menu_blue_trail">Szlak Niebieski</string>
+
+    <!-- Other strings used in the app -->
+    <string name="action_settings">Ustawienia</string>
+    <string name="text_font_change">Zmień czcionkę</string>
+    <string name="text_font_size_change">Zmień rozmiar czcionki</string>
+    <string name="text_font_color_change">Zmień kolor czcionki</string>
+
+    <!-- Accessibility strings -->
+    <string name="desc_open_navigation_drawer">Otwórz menu nawigacji</string>
+</resources>
